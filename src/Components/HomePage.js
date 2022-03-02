@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
+import SearchBox from "./SearchBox"
 
 export default class HomePage extends Component {
   constructor(props) {
@@ -10,6 +11,7 @@ export default class HomePage extends Component {
     return (
       <>
         <Navbar />
+        <SearchBox />
       </>
     );
   }
